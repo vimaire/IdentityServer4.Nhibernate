@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BBCBE8A0-F394-4A8B-AC38-7CA9DEE49283}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.NHibernate", "src\IdentityServer4.NHibernate\IdentityServer4.NHibernate.csproj", "{A99A0DA3-A815-42C3-82D6-9293C18ADA5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Host", "src\Host\Host.csproj", "{FD696188-3D74-4332-A227-076A1CAB0E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4B124EC2-3173-40D2-98DE-EABA5E230223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.NHibernate.UnitTests", "test\IdentityServer4.NHibernate.UnitTests\IdentityServer4.NHibernate.UnitTests.csproj", "{06C55892-4C81-47BF-A046-F228BF07ED05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4.NHibernate.IntegrationTests", "test\IdentityServer4.NHibernate.IntegrationTests\IdentityServer4.NHibernate.IntegrationTests.csproj", "{762807F2-30F8-4988-88AD-5CE511877849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A99A0DA3-A815-42C3-82D6-9293C18ADA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99A0DA3-A815-42C3-82D6-9293C18ADA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99A0DA3-A815-42C3-82D6-9293C18ADA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99A0DA3-A815-42C3-82D6-9293C18ADA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD696188-3D74-4332-A227-076A1CAB0E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD696188-3D74-4332-A227-076A1CAB0E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD696188-3D74-4332-A227-076A1CAB0E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD696188-3D74-4332-A227-076A1CAB0E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C55892-4C81-47BF-A046-F228BF07ED05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C55892-4C81-47BF-A046-F228BF07ED05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C55892-4C81-47BF-A046-F228BF07ED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C55892-4C81-47BF-A046-F228BF07ED05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762807F2-30F8-4988-88AD-5CE511877849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762807F2-30F8-4988-88AD-5CE511877849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762807F2-30F8-4988-88AD-5CE511877849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762807F2-30F8-4988-88AD-5CE511877849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A99A0DA3-A815-42C3-82D6-9293C18ADA5A} = {BBCBE8A0-F394-4A8B-AC38-7CA9DEE49283}
+		{FD696188-3D74-4332-A227-076A1CAB0E52} = {BBCBE8A0-F394-4A8B-AC38-7CA9DEE49283}
+		{06C55892-4C81-47BF-A046-F228BF07ED05} = {4B124EC2-3173-40D2-98DE-EABA5E230223}
+		{762807F2-30F8-4988-88AD-5CE511877849} = {4B124EC2-3173-40D2-98DE-EABA5E230223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {150F45A0-1974-4B94-9E31-782C7AD43C4D}
+	EndGlobalSection
+EndGlobal
